@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "https://kuralis.ch/:1",
+      "source": "/:path*",
+      "destination": "https://kuralis.ch/:path*",
       "permanent": true
     }
   ]
